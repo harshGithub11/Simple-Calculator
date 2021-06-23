@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/e0493fd148.js" crossorigin="anonymous"></script>
+
+    <title>Simple Calculator</title>
+
+</head>
+
+<body>
+    
+    <header>
+    
+        <div class="header">
+    
+            <h2 class="heading">Simple Calculator</h2>
+            
+            <div class="switch-mode">
+                
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label">
+                
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+
+                    <div class="toggle-ball"></div>
+
+                </label>
+
+            </div>
+
+        </div>
+    
+    </header>
+    
+    <main>
+    
+        <div class="container">
+
+            <div class="card">
+    
+                <div class="result">
+                    
+                    <div class="history">
+                        <p class="result-text history-text"></p>
+                    </div>
+                    
+                    <div class="output">
+                        <p class="result-text output-text"></p>
+                    </div>
+                    
+                </div>      
+    
+                <div class="buttons">
+                    
+                    <div class="btn-row">
+                        <button class="btn btn-clearall">AC</button>
+                        <button class="btn btn-op-plus-minus">+/-</button>
+                        <button class="btn btn-op-percentage">%</button>
+                        <button class="btn btn-backspace">C</button>
+                        
+                    </div>
+    
+                    <div class="btn-row">
+                        <button class="btn btn-num">7</button>
+                        <button class="btn btn-num">8</button>
+                        <button class="btn btn-num">9</button>
+                        <button class="btn btn-operator btn-divide">/</button>
+                    </div>
+    
+                    <div class="btn-row">
+                        <button class="btn btn-num">4</button>
+                        <button class="btn btn-num">5</button>
+                        <button class="btn btn-num">6</button>
+                        <button class="btn btn-operator btn-multiply">*</button>
+                    </div>
+    
+                    <div class="btn-row">
+                        <button class="btn btn-num">1</button>
+                        <button class="btn btn-num">2</button>
+                        <button class="btn btn-num">3</button>
+                        <button class="btn btn-operator btn-subtract">-</button>
+                    </div>
+    
+                    <div class="btn-row">
+                        <button class="btn btn-num">0</button>
+                        <button class="btn btn-num">.</button>
+                        <button class="btn btn-operator btn-calculate">=</button>
+                        <button class="btn btn-operator btn-add">+</button>
+                    </div>
+    
+                </div>
+                
+            </div>
+    
+        </div>
+    
+    </main>
+
+    <footer class="footer"><p>Made with ❤️ by <a href="https://www.linkedin.com/in/harsh-jain-b9691b1b1/">Harsh</a></p></footer>
+    
+    <script src="./scripts/index.js" charset="utf-8"></script>
+
+</body>
+</html>
