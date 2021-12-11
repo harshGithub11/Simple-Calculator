@@ -14,4 +14,8 @@ ___
 ## Run the Project:
 
 Follow the instructions on this [link](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) to run the project on your local machine or you can download the jar file by clicking the code button and then extract it.
+
+Then simply run the index.html file by right clicking it and selecting the browser of your choice.
+
+Happy Coding! ☺️
 ___
