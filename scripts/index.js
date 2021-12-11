@@ -1,17 +1,6 @@
 //Getting all the button objects from DOM
 const calculatorButtons = document.querySelectorAll(".btn");
 
-//Handling mouseover event, adding sound on mouseover
-const handleMouseOver = () => {
-    let audio = new Audio("./sounds/water-droplet.mp3");
-    audio.play();
-}
-
-//Adding mouseover event to all the buttons
-for(let i = 0; i < calculatorButtons.length; i++) {
-    calculatorButtons[i].addEventListener("mouseover", handleMouseOver);
-}
-
 //Getting object with history-text class
 let history = document.querySelector(".history-text");
 
@@ -46,6 +35,10 @@ const setOutput = (outputText) => {
 //Handling click event for the buttons
 const handleClick = (e) => {
     
+    //First adding audio to each of the buttons
+    let audio = new Audio("./sounds/water-droplet.mp3");
+    audio.play();
+
     let classList = [];
     classList = e.target.classList;
 
